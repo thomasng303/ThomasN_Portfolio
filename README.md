@@ -9,6 +9,10 @@ BI Analyst and junior data scientist working across Power BI, Microsoft Fabric, 
 **Reporting Tools:** Power BI · DAX · Power Query · Python (pandas and SciPy (weight optimization using constraints optimization techniques)
 **Data Integration Tools (Microsoft Fabric)**: Copy Job ingestion, PySpark Fabric Notebooks for complex transformations and data operations, Pipeline orchestration to move and deliver gold tables for reporting needs.
 
+### Links to Published Power BI Report
+**GitHub**: https://thomasng303.github.io/ThomasN_Portfolio/everdriven/
+**Web Published**: https://app.powerbi.com/view?r=eyJrIjoiOWY3Mzg0ODQtMzY0YS00ZTViLWJkNDQtNmE0NjMyODZjNWNkIiwidCI6IjU2MzMzN2NhLWE1MTctNDIxYS1hYWUwLTFhYTViNDE0ZmQ3ZiIsImMiOjZ9
+
 ### Background
 EverDriven provides alternative student transportation for school districts, serving students with disabilities and others who can't ride a standard school bus, through a network of third-party service providers. Account health was previously judged account by account, with no consistent way to tell which districts were at risk of leaving or what to do about it.
 
