@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Health Scoring Framework | Thomas Nguyen</title>
+  <style>
+    :root {
+      --navy: #1F4A7C;
+      --text: #1f2933;
+      --muted: #5f6b7a;
+      --bg: #f5f7fa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 28px 24px;
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.6rem; }
+    header p { margin: 0; opacity: 0.9; }
+    main { max-width: 1280px; margin: 0 auto; padding: 24px 16px 40px; }
+    .report {
+      position: relative;
+      width: 100%;
+      padding-top: 62.25%; /* matches the 600 x 373.5 Power BI aspect ratio */
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+    .report iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .note { color: var(--muted); font-size: 0.9rem; margin-top: 14px; }
+    .note a { color: var(--navy); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EverDriven Client Health Scoring Framework</h1>
+    <p>Interactive Power BI report · synthetic data · legacy accounts (2+ years)</p>
+  </header>
+
+  <main>
+    <div class="report">
+      <iframe
+        title="CHS Framework Everdriven"
+        src="https://app.powerbi.com/view?r=eyJrIjoiOWY3Mzg0ODQtMzY0YS00ZTViLWJkNDQtNmE0NjMyODZjNWNkIiwidCI6IjU2MzMzN2NhLWE1MTctNDIxYS1hYWUwLTFhYTViNDE0ZmQ3ZiIsImMiOjZ9"
+        allowfullscreen="true"
+        loading="lazy">
+      </iframe>
+    </div>
+    <p class="note">
+      Tip: right-click any account on the Command Center and choose <strong>Drill through &rarr; Account Deep Dive</strong>.
+      Use the full-screen button in the bottom-right corner for the best view.
+      All accounts and figures are synthetic.
+    </p>
+  </main>
+</body>
+</html>
