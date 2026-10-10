@@ -4,6 +4,10 @@ A client health scoring system that turns service, client-experience and revenue
 
 > **Note:** This repository is a portfolio rebuild using **synthetic data**. Client names, account owners and all figures shown in the report are fictional. The results described under *Impact* come from the original framework in production at EverDriven.
 
+**Links to Published Power BI Report**: 
+- **GitHub**: https://thomasng303.github.io/ThomasN_Portfolio/everdriven/
+- **Web Published**: https://app.powerbi.com/view?r=eyJrIjoiOWY3Mzg0ODQtMzY0YS00ZTViLWJkNDQtNmE0NjMyODZjNWNkIiwidCI6IjU2MzMzN2NhLWE1MTctNDIxYS1hYWUwLTFhYTViNDE0ZmQ3ZiIsImMiOjZ9
+
 ---
 
 ## Background
