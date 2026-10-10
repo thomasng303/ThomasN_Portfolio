@@ -124,7 +124,6 @@ The scoring methodology, conversion scale, targets, weights and a guide to every
 ### Original (production at EverDriven)
 - **Microsoft Fabric:** Lakehouse and Delta tables as the data foundation
 - **Python and Spark notebooks** for scoring logic. Category weights were tuned and finalized in notebooks before being locked in.
-- **Semantic Link (`sempy.fabric`)** for programmatic access to the published semantic model, which removed manual Power BI export workflows
 - **Power BI on Direct Lake** for the reporting layer
 
 ### Portfolio rebuild (this repository)
